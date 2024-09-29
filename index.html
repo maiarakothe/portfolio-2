@@ -13,8 +13,10 @@
 
     <!-- Menu -->
     <header class="cabecalho">
-        <img class="cabecalho__logo" src="imagens/estrelas.png" alt="Estrela">
-        <h1>Maiara Kothe</h1>
+        <div class="cabecalho__logo-e-titulo">
+            <img class="cabecalho__logo" src="imagens/estrelas.png" alt="Estrela">
+            <h1>Maiara Kothe</h1>
+        </div>
         <nav class="navegacao">
             <ul class="navegacao__lista">
                 <li class="navegacao__elemento"><a href="#sobre-mim">Sobre mim</a></li>
@@ -103,41 +105,50 @@
         <!-- Projetos -->
         <section id="projetos">
             <h2 class="projetos__titulo">Experiência profissional</h2>
-            <img src="imagens/projeto-decodificador.png" alt="Imagem do projeto decodificador">
             <div class="projetos__conteiner">
-                <h3 class="projetos__nome">Decodificador de texto</h3>
-                <p class="projetos__descricao">Challenge Alura Codificador feito com HTML, CSS e JavaScript.</p>
-                <a class="projetos__descricao--repositorio" href="https://github.com/maiarakothe/decodificador" target="_blank">Repositório</a>
-                <a class="projetos__descricao--demo" href="https://maiarakothe.github.io/decodificador/" target="_blank">Ver demo</a>            
+                <img src="imagens/projeto-decodificador.png" alt="Imagem do projeto decodificador">
+                <div class="projetos__container--descricao">
+                    <h3 class="projetos__nome">Decodificador de texto</h3>
+                    <p class="projetos__descricao">Challenge Alura Codificador feito com HTML, CSS e JavaScript.</p>
+                    <a class="projetos__descricao--repositorio" href="https://github.com/maiarakothe/decodificador" target="_blank">Repositório</a>
+                    <a class="projetos__descricao--demo" href="https://maiarakothe.github.io/decodificador/" target="_blank">Ver demo</a>
+                </div>           
             </div>
-            <img src="imagens/projeto-cupcake.png" alt="Imagem da landing page">
             <div class="projetos__conteiner">
-                <h3 class="projetos__nome">Landing page de CupCakes</h3>
-                <p class="projetos__descricao">Uma página sobre cupcakes feita com HTML e CSS.</p>
-                <a class="projetos__descricao--repositorio" href="https://github.com/maiarakothe/pagina-produto" target="_blank">Repositório</a>
-                <a class="projetos__descricao--demo" href="https://maiarakothe.github.io/pagina-produto/" target="_blank">Ver demo</a>
+                <img src="imagens/projeto-cupcake.png" alt="Imagem da landing page">
+                <div class="projetos__container--descricao">
+                    <h3 class="projetos__nome">Landing page de CupCakes</h3>
+                    <p class="projetos__descricao">Uma página sobre cupcakes feita com HTML e CSS.</p>
+                    <a class="projetos__descricao--repositorio" href="https://github.com/maiarakothe/pagina-produto" target="_blank">Repositório</a>
+                    <a class="projetos__descricao--demo" href="https://maiarakothe.github.io/pagina-produto/" target="_blank">Ver demo</a>
+                </div>
             </div>
-            <img src="imagens/projeto-formulario.png" alt="Imagem de um formulário">
             <div class="projetos__conteiner">
-                <h3 class="projetos__nome">Formulário</h3>
-                <p class="projetos__descricao">Um formulário sobre filmes e séries feito com HTML e CSS.</p>
-                <a class="projetos__descricao--repositorio" href="https://github.com/maiarakothe/formulario" target="_blank">Repositório</a>
-                <a class="projetos__descricao--demo" href="https://maiarakothe.github.io/formulario/" target="_blank">Ver demo</a>
+                <img src="imagens/projeto-formulario.png" alt="Imagem de um formulário">
+                <div class="projetos__container--descricao">
+                    <h3 class="projetos__nome">Formulário</h3>
+                    <p class="projetos__descricao">Um formulário sobre filmes e séries feito com HTML e CSS.</p>
+                    <a class="projetos__descricao--repositorio" href="https://github.com/maiarakothe/formulario" target="_blank">Repositório</a>
+                    <a class="projetos__descricao--demo" href="https://maiarakothe.github.io/formulario/" target="_blank">Ver demo</a>
+                </div>
             </div>
         </section>
 
         <!-- Contato -->
         <section id="contato">
             <img src="imagens/contato.png" alt="Imagem de um telefone preto num fundo cinza.">
-            <h2 class="contato__titulo">Contato</h2>
-            <p>Quer entrar em contato comigo?</p>
-            <p>Preencha o formúlario ao lado e entrarei em contato o mais rápido possivel.</p>
-            <form action="" class="contato__formulario">
-                <input class="contato__campo" type="text" name="nome" id="nome" placeholder="Nome">
-                <input class="contato__campo" type="email" placeholder="E-mail">
-                <textarea class="contato__campo contato__campo--textarea" name="mensagem" id="mensagem">Mensagem</textarea>
-                <button class="contato__botao" type="submit">Envia mensagem</button>
-            </form>
+            <div class="contato__container">
+                <h2 class="contato__titulo">Contato</h2>
+                <p>Quer entrar em contato comigo?</p>
+                <p>Preencha o formúlario ao lado e entrarei em contato o mais rápido possivel.</p>
+                <form action="" class="contato__formulario">
+                    <input class="contato__campo" type="text" name="nome" id="nome" placeholder="Nome" required>
+                    <input class="contato__campo" type="email" name="email" id="email" placeholder="E-mail" required>
+                    <input class="contato__campo" type="text" name="assunto" id="assunto" placeholder="Assunto" required>
+                    <textarea class="contato__campo contato__campo--textarea" name="mensagem" id="mensagem" placeholder="Mensagem" required></textarea>
+                    <button class="contato__botao" type="submit">Enviar mensagem</button>
+                </form>
+            </div>
         </section>
     </main>
 
