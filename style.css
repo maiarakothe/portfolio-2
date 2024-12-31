@@ -344,6 +344,10 @@ footer {
         text-decoration: none;
     }
 
+    .navegacao__lista > li > a:hover {
+        text-decoration: underline;
+    }
+
     /* Apresentação */
 
     .apresentacao {
