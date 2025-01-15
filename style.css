@@ -403,6 +403,10 @@ footer {
         flex-direction: row-reverse;
     }
 
+    .projetos__conteiner:nth-child(5){
+        flex-direction: row-reverse;
+    }
+
     .projetos__conteiner > img {
         width: 50%;
     }
