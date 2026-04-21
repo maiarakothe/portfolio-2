@@ -16,7 +16,7 @@ O projeto foi construído utilizando tecnologias web fundamentais, focando em pe
 ## 🚀 Demonstração
 
 🔗 Acesse o portfólio online:  
-[https://maiarakothe.github.io](https://maiarakothe.github.io)
+[https://maiarakothe.github.io/portfolio-2/](https://maiarakothe.github.io/portfolio-2/)
 
 ---
 
