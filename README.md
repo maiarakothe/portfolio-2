@@ -1,2 +1,42 @@
-# portfolio-2
- Um portfólio criado a partir do desafio do curso da Oracle ONE
+# 💻 Meu Portfólio Pessoal - Maiara Kothe
+
+Este é o repositório do meu portfólio pessoal, desenvolvido para centralizar meus projetos, habilidades e trajetória profissional como desenvolvedora Front-end.
+
+## 🚀 Tecnologias Utilizadas
+
+O projeto foi construído utilizando tecnologias web fundamentais, focando em performance e design responsivo:
+
+- **HTML5**: Estruturação semântica.
+- **CSS3**: Estilização moderna (Flexbox, Grid e animações).
+- **Google Fonts**: Tipografia (Fonte Poppins).
+- **Font Awesome**: Ícones para redes sociais e contato.
+
+---
+
+## 🚀 Demonstração
+
+🔗 Acesse o portfólio online:  
+[https://maiarakothe.github.io](https://maiarakothe.github.io)
+
+---
+
+## 🎨 Design
+
+O design foi pensado para ser limpo e moderno, utilizando tons escuros com detalhes em degradê (roxo/rosa) para destacar elementos importantes.
+
+## 📥 Como visualizar o projeto localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/maiarakothe/portfolio-2.git
+   ```
+2. Navegue até a pasta do projeto.
+3. Abra o arquivo `index.html` em seu navegador.
+
+---
+
+## 📌 Observação
+
+## Este portfólio está em constante evolução, e novos projetos e melhorias serão adicionados ao longo do meu crescimento profissional.
+
+Desenvolvido com 💜 por Maiara Kothe.
