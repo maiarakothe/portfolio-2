@@ -1,4 +1,4 @@
-# 💻 Meu Portfólio Pessoal - Maiara Kothe
+<h1 align='center'>💻 Meu Portfólio Pessoal - Maiara Kothe</h1>
 
 Este é o repositório do meu portfólio pessoal, desenvolvido para centralizar meus projetos, habilidades e trajetória profissional como desenvolvedora Front-end.
 
@@ -36,7 +36,6 @@ O design foi pensado para ser limpo e moderno, utilizando tons escuros com detal
 ---
 
 ## 📌 Observação
+<p>Este portfólio está em constante evolução, e novos projetos e melhorias serão adicionados ao longo do meu crescimento profissional.</p>
 
-## Este portfólio está em constante evolução, e novos projetos e melhorias serão adicionados ao longo do meu crescimento profissional.
-
-Desenvolvido com 💜 por Maiara Kothe.
+<p align='center'>Desenvolvido com 💜 por Maiara Kothe.</p>
